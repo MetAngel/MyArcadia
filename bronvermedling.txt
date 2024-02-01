@@ -1,0 +1,17 @@
+CSS
+
+margin & padding:
+    https://www.youtube.com/watch?v=TkdBtmwWyZo&t=1028s
+
+footer:
+    https://www.youtube.com/watch?v=ffb34dCmMVQ 
+
+HTML & CSS :
+
+    https://internetingishard.netlify.app/html-and-css/index.html
+
+Tekst en Afbeeldingen:
+    C.P Ramadwierta
+
+Hulp met flexbox:
+    https://www.cssportal.com/css-flexbox-generator/ 

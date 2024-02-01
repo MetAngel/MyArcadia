@@ -1,0 +1,250 @@
+/* Zie bronvermelding CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F7E6C8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    padding: 20px;
+    background-color: #7CA692;
+  }
+
+ul li:first-of-type {
+    flex-grow: 3;
+    font-size: 30px;
+}
+
+/* Zie bronvermelding footer */
+ul li {
+    flex-grow: 1;
+}
+/*  */
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    gap: 20%;
+}
+
+header nav a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: rgb(57, 69, 36);
+}
+
+
+main {
+    flex-grow: 1;
+    background-color: #F2F2F2;
+    margin: 15px 20px;
+    padding: 100px 100px;
+}
+
+footer {
+    background-color: #7CA692;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    color: #F2F2F2;
+}
+
+/*  */
+
+/* index.html */
+
+.index__h1 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.main__pic1 {
+    padding-top: 30px;
+    width: 365px;
+}
+
+.main__box1 {
+    display: flex;
+}
+
+.box__content1 {
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 20px;
+
+}
+
+.main__box2 {
+    display: flex;
+}
+
+.box__content2 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: auto;
+    padding-right: 20px;
+
+}
+
+.main__pic2 {
+    padding-top: 50px;
+    width: 265px;
+}
+
+.main__box3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box__content3 {
+    margin: auto;
+    padding: 40px 0;
+    line-height: 1.6;
+
+}
+
+.box__content4 {
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+
+.main__pic3 {
+    width: 1300px;
+    align-self: center;
+}
+
+/* end index.html */
+
+/* gallery.html */
+
+.main__h1gal {
+    font-size: 37px;
+    padding-bottom: 30px;
+}
+
+/* Zie hulp met flexbox */
+.main__photogal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.jaartal {
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+/* end gallery.html */
+
+
+/* destinations.html */
+
+.main__descr {
+    line-height: 1.6;
+}
+
+.destinations__img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+}
+
+.destinations__h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.destinations__h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+/* end destinations.html */
+
+/* journal.html */
+
+.readmore__link {
+    color: black;
+}
+
+.readmore__link:hover {
+    color: #7CA692;
+}
+
+.journal__entry {
+    font-style: italic;
+    padding: 35px 50px;
+}
+
+.journal__h1 {
+    padding-bottom: 50px;
+}
+
+
+/* end journal.html  */
+
+/* error.html */ 
+
+/* zie hulp met flexbox */
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Zie bronvermelding margin & padding */
+.buttonerror {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: black;
+    text-decoration: underline;
+    background-color: #DDA960;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    padding: 12px 16px;
+}
+
+
+
+.buttonerror:hover {
+    background: #ab7324;
+    color: #F2F2F2;
+}
+
+/*  */
+
+.errortext {
+    padding-bottom: 20px;
+}
+
+/* end error.html */
